@@ -1,6 +1,6 @@
 {
   "name": "chatgpt-ultra",
-  "version": "0.0.1-alpha.2",
+  "version": "0.0.1-alpha.3",
   "description": "Node.js client for the official ChatGPT API.",
   "author": "zhyjor <godmeir@gmail.com>",
   "repository": "transitive-bullshit/chatgpt-api",
