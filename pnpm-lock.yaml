@@ -25,7 +25,7 @@ importers:
         version: 6.7.14
       chatgpt-ultra:
         specifier: ^0.0.1-alpha.4
-        version: 'link:'
+        version: 0.0.1-alpha.4
       conf:
         specifier: ^11.0.1
         version: 11.0.2
@@ -1782,6 +1782,22 @@ packages:
   /chardet@0.7.0:
     resolution: {integrity: sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==}
     dev: true
+
+  /chatgpt-ultra@0.0.1-alpha.4:
+    resolution: {integrity: sha512-af3KFB789rDZl+8O8H0xNtiID7OVHc6/vJAV6a+LBeRVNrQ7GeKWMdsllFlGAtlJIDDNVdts6lR3Df1EtL36Rg==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dependencies:
+      cac: 6.7.14
+      conf: 11.0.2
+      eventsource-parser: 1.1.2
+      js-tiktoken: 1.0.12
+      keyv: 4.5.4
+      p-timeout: 6.1.2
+      quick-lru: 6.1.2
+      read-pkg-up: 9.1.0
+      uuid: 9.0.1
+    dev: false
 
   /chokidar@3.6.0:
     resolution: {integrity: sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==}
