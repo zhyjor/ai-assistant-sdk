@@ -5,7 +5,6 @@
     "packages/*"
   ],
   "dependencies": {
-    "openai": "^4.52.0"
   },
   "devDependencies": {
     "@types/node": "^20.14.7",

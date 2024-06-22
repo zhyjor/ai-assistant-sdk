@@ -7,10 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      openai:
-        specifier: ^4.52.0
-        version: 4.52.0
     devDependencies:
       '@types/node':
         specifier: ^20.14.7
@@ -27,6 +23,9 @@ importers:
       cac:
         specifier: ^6.7.14
         version: 6.7.14
+      chatgpt-ultra:
+        specifier: ^0.0.1-alpha.4
+        version: 'link:'
       conf:
         specifier: ^11.0.1
         version: 11.0.2
@@ -39,6 +38,9 @@ importers:
       keyv:
         specifier: ^4.5.2
         version: 4.5.4
+      openai:
+        specifier: ^4.52.0
+        version: 4.52.0
       p-timeout:
         specifier: ^6.1.1
         version: 6.1.2
