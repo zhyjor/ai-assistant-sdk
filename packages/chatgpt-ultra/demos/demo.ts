@@ -15,7 +15,7 @@ dotenv.config()
 async function main() {
   const api = new ChatGPTAPI({
     baseURL: 'https://www.jiujiuai.life/v1',
-    apiKey: 'sk-YqJXon9AiYv679yXCa6487De783f475cA99366806e65D2Ab', // This is the d
+    apiKey: '', // This is the d
     debug: false
   })
 

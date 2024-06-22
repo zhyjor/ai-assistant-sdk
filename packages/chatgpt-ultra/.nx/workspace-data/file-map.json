@@ -1,0 +1,222 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.3.0",
+  "deps": {
+    "cac": "^6.7.14",
+    "conf": "^11.0.1",
+    "eventsource-parser": "^1.0.0",
+    "js-tiktoken": "^1.0.5",
+    "keyv": "^4.5.2",
+    "p-timeout": "^6.1.1",
+    "quick-lru": "^6.1.1",
+    "read-pkg-up": "^9.1.0",
+    "uuid": "^9.0.0",
+    "@keyv/redis": "^2.5.7",
+    "@trivago/prettier-plugin-sort-imports": "^4.1.1",
+    "@types/node": "^18.16.3",
+    "@types/uuid": "^9.0.1",
+    "del-cli": "^5.0.0",
+    "dotenv-safe": "^8.2.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
+    "npm-run-all": "^4.1.5",
+    "ora": "^6.3.0",
+    "prettier": "^2.8.8",
+    "tsup": "^6.7.0",
+    "tsx": "^3.12.7",
+    "typedoc": "^0.24.6",
+    "typedoc-plugin-markdown": "^3.15.3",
+    "typescript": "^5.0.4"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".env",
+        "hash": "18309680612879512413"
+      },
+      {
+        "file": ".env.example",
+        "hash": "18309680612879512413"
+      },
+      {
+        "file": "README.md",
+        "hash": "3309950925230109183"
+      },
+      {
+        "file": "__tests__/chatgpt-ultra.test.js",
+        "hash": "5238458945191501680"
+      },
+      {
+        "file": "bin/cli.js",
+        "hash": "2747794043463426615"
+      },
+      {
+        "file": "build/index.d.ts",
+        "hash": "6076156728567552377"
+      },
+      {
+        "file": "build/index.js",
+        "hash": "8586565443446945972"
+      },
+      {
+        "file": "build/index.js.map",
+        "hash": "6432984773683901449"
+      },
+      {
+        "file": "demos/.env",
+        "hash": "18309680612879512413"
+      },
+      {
+        "file": "demos/demo-conversation.ts",
+        "hash": "4092969496542712908"
+      },
+      {
+        "file": "demos/demo-gpt-4.ts",
+        "hash": "15466181668468770272"
+      },
+      {
+        "file": "demos/demo-on-progress.ts",
+        "hash": "12768465236125567462"
+      },
+      {
+        "file": "demos/demo-persistence.ts",
+        "hash": "787651637876803903"
+      },
+      {
+        "file": "demos/demo-reverse-proxy.ts",
+        "hash": "5050913307101702555"
+      },
+      {
+        "file": "demos/demo.ts",
+        "hash": "12915551608934288015"
+      },
+      {
+        "file": "docs/.nojekyll",
+        "hash": "12301719336174243164"
+      },
+      {
+        "file": "docs/classes/ChatGPTAPI.md",
+        "hash": "1907880476536679481"
+      },
+      {
+        "file": "docs/classes/ChatGPTError.md",
+        "hash": "6589195963414314059"
+      },
+      {
+        "file": "docs/classes/ChatGPTUnofficialProxyAPI.md",
+        "hash": "14403325001239462356"
+      },
+      {
+        "file": "docs/interfaces/ChatMessage.md",
+        "hash": "1539838161562463741"
+      },
+      {
+        "file": "docs/interfaces/CreateChatCompletionStreamResponse.md",
+        "hash": "6595618882421739454"
+      },
+      {
+        "file": "docs/interfaces/CreateCompletionStreamResponseUsage.md",
+        "hash": "16781619707461711727"
+      },
+      {
+        "file": "docs/interfaces/openai.ChatCompletionRequestMessage.md",
+        "hash": "6051817538694451576"
+      },
+      {
+        "file": "docs/interfaces/openai.ChatCompletionResponseMessage.md",
+        "hash": "2765387755177405836"
+      },
+      {
+        "file": "docs/interfaces/openai.CreateChatCompletionDeltaResponse.md",
+        "hash": "6204366179581144976"
+      },
+      {
+        "file": "docs/interfaces/openai.CreateChatCompletionRequest.md",
+        "hash": "3100444144682803365"
+      },
+      {
+        "file": "docs/interfaces/openai.CreateChatCompletionResponse.md",
+        "hash": "13532194179975782855"
+      },
+      {
+        "file": "docs/interfaces/openai.CreateChatCompletionResponseChoicesInner.md",
+        "hash": "6816313600590516842"
+      },
+      {
+        "file": "docs/interfaces/openai.CreateCompletionResponseUsage.md",
+        "hash": "13034619168871381794"
+      },
+      {
+        "file": "docs/modules.md",
+        "hash": "10107135545666092124"
+      },
+      {
+        "file": "docs/modules/openai.md",
+        "hash": "12680881100547578973"
+      },
+      {
+        "file": "docs/readme.md",
+        "hash": "4801524728070174202"
+      },
+      {
+        "file": "index.ts",
+        "hash": "2366301420832049153"
+      },
+      {
+        "file": "lib/chatgpt-ultra.js",
+        "hash": "10367177894631870077"
+      },
+      {
+        "file": "package.json",
+        "hash": "13657404877721532980"
+      },
+      {
+        "file": "src/chatgpt-api.ts",
+        "hash": "10692802256464237447"
+      },
+      {
+        "file": "src/chatgpt-unofficial-proxy-api.ts",
+        "hash": "4252651380869300978"
+      },
+      {
+        "file": "src/fetch-sse.ts",
+        "hash": "15589542929620956156"
+      },
+      {
+        "file": "src/fetch.ts",
+        "hash": "12311207672739998000"
+      },
+      {
+        "file": "src/index.ts",
+        "hash": "11923271452090649530"
+      },
+      {
+        "file": "src/stream-async-iterable.ts",
+        "hash": "1666554742884431286"
+      },
+      {
+        "file": "src/tokenizer.ts",
+        "hash": "15604713592423158002"
+      },
+      {
+        "file": "src/types.ts",
+        "hash": "17505357707386462715"
+      },
+      {
+        "file": "src/utils.ts",
+        "hash": "13815399460285642464"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "15817561495383552705"
+      },
+      {
+        "file": "tsup.config.ts",
+        "hash": "3291359819152711010"
+      }
+    ]
+  }
+}
