@@ -3,10 +3,12 @@
   "nxVersion": "19.3.0",
   "deps": {
     "cac": "^6.7.14",
+    "chatgpt-ultra": "^0.0.1-alpha.4",
     "conf": "^11.0.1",
     "eventsource-parser": "^1.0.0",
     "js-tiktoken": "^1.0.5",
     "keyv": "^4.5.2",
+    "openai": "^4.52.0",
     "p-timeout": "^6.1.1",
     "quick-lru": "^6.1.1",
     "read-pkg-up": "^9.1.0",
@@ -42,6 +44,14 @@
         "hash": "18309680612879512413"
       },
       {
+        "file": ".prettierignore",
+        "hash": "1924164585818309476"
+      },
+      {
+        "file": ".prettierrc.cjs",
+        "hash": "4684866811118092476"
+      },
+      {
         "file": "README.md",
         "hash": "3309950925230109183"
       },
@@ -59,11 +69,19 @@
       },
       {
         "file": "build/index.js",
-        "hash": "8586565443446945972"
+        "hash": "8334735427911906089"
       },
       {
         "file": "build/index.js.map",
-        "hash": "6432984773683901449"
+        "hash": "11261971203319486687"
+      },
+      {
+        "file": "build/index.mjs",
+        "hash": "4468493265459544806"
+      },
+      {
+        "file": "build/index.mjs.map",
+        "hash": "11330088354508534164"
       },
       {
         "file": "demos/.env",
@@ -162,20 +180,16 @@
         "hash": "4801524728070174202"
       },
       {
-        "file": "index.ts",
-        "hash": "2366301420832049153"
-      },
-      {
         "file": "lib/chatgpt-ultra.js",
         "hash": "10367177894631870077"
       },
       {
         "file": "package.json",
-        "hash": "13657404877721532980"
+        "hash": "15946752632545732405"
       },
       {
         "file": "src/chatgpt-api.ts",
-        "hash": "10692802256464237447"
+        "hash": "14393974553142127149"
       },
       {
         "file": "src/chatgpt-unofficial-proxy-api.ts",
@@ -215,7 +229,7 @@
       },
       {
         "file": "tsup.config.ts",
-        "hash": "3291359819152711010"
+        "hash": "16946704549874861334"
       }
     ]
   }
