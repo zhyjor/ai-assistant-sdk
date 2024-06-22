@@ -5,7 +5,6 @@
   "author": "zhyjor <godmeir@gmail.com>",
   "repository": "transitive-bullshit/chatgpt-api",
   "license": "MIT",
-  "type": "module",
   "source": "./src/index.ts",
   "types": "./build/index.d.ts",
   "exports": {
@@ -84,5 +83,5 @@
     "ml",
     "bot"
   ],
-  "gitHead": "322ff3ebb1901df316026f977d51781fd6b41691"
+  "gitHead": "05eae5ed291f144d4b5b025b2ca0c2b1fd32f9e2"
 }
